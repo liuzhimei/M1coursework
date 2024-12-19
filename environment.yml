@@ -1,0 +1,23 @@
+name: M1_zhimei_env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pytorch=2.0.0
+  - torchvision=0.15.0
+  - numpy=1.24.3
+  - scikit-learn=1.2.2
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+  - tqdm=4.65.0
+  - optuna=3.1.0
+  - joblib=1.2.0
+  - pip
+  - pip:
+      - torchsummary==1.5.1
+      - tsnecuda==3.0.0
+      - torchmetrics==0.11.4
+
